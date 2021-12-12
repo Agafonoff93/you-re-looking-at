@@ -824,6 +824,12 @@ body.ie ._ibg img {
     justify-content: space-between;
   }
 }
+@media (max-width: 767.98px) {
+  .skills__body {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
 
 .skill__item {
   padding: 0 15px;
@@ -874,6 +880,7 @@ body.ie ._ibg img {
     position: relative;
     height: 30px;
     display: flex;
+    flex: 0 0 50px;
     justify-content: flex-end;
     align-items: center;
     justify-content: center;
